@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+
+public class MultipleSwitchCaseStatement{
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter your fullname: ");
+		String fullname = input.nextLine();
+		
+		System.out.print("Enter your mark: ");
+		int mark = input.nextInt();
+		
+		switch(mark/10){
+			case 0:
+			case 1:
+			case 2:
+			case 3:
+			      System.out.println("==================\n");
+			      System.out.printf("Student Name: %s%n",fullname);
+			      System.out.printf("Student Mark: %s%n",mark);
+	              System.out.println("Student Grade: F");
+			      System.out.println("==================\n\n");
+			
+			break;
+			
+			case 4:
+			      System.out.println("==================\n");
+			      System.out.printf("Student Name: %s%n",fullname);
+			      System.out.printf("Student Mark: %s%n",mark);
+	              System.out.println("Student Grade: D");
+			      System.out.println("==================\n\n");
+			break;
+			
+			case 5:
+			      System.out.println("==================\n");
+			      System.out.printf("Student Name: %s%n",fullname);
+			      System.out.printf("Student Mark: %s%n",mark);
+	              System.out.println("Student Grade: C");
+			      System.out.println("==================\n\n");
+			break;
+			
+			case 6:
+			      System.out.println("==================\n");
+			      System.out.printf("Student Name: %s%n",fullname);
+			      System.out.printf("Student Mark: %s%n",mark);
+	              System.out.println("Student Grade: B");
+			      System.out.println("==================\n\n");
+			break;
+			
+			case 7:
+			case 8:
+			case 9:
+			case 10:
+			      System.out.println("==================\n");
+			      System.out.printf("Student Name: %s%n",fullname);
+			      System.out.printf("Student Mark: %s%n",mark);
+	              System.out.println("Student Grade: A");
+			      System.out.println("==================\n\n");
+			break;
+			default:
+			      System.out.println("lnvalid input");
+		}
+	}
+}	
