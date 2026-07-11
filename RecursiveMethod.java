@@ -1,12 +1,13 @@
-public class RecursiveMethod{
-	
+public class RecursiveMethod{ 
+
 	public static void main(String[] args){
+		displayName("john Williams");
 		
-		displayName("John Williams");
-		
+	
+	
 	}
 	
-	public void displayName(String name){
+	public static void displayName(String name){
 		System.out.println(name);
 		
 		

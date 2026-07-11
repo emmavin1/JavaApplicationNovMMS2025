@@ -23,7 +23,7 @@ public class SentinelLoop2 {
             } else if(num < 0) {
                 negative++;
             } else {
-                zeros++;
+                zero++;
             }
         }
         
