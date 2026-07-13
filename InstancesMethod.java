@@ -7,6 +7,7 @@ public class InstancesMethod{
 		
 		System.out.println(obj.addNumber(50,80,70));
 		System.out.println(obj.addNumber(60,40));
+		
 	}
 	
 	//method
